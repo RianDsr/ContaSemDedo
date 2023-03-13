@@ -1,2 +1,2 @@
 # ContaSemDedo
-ContaSemDedo is a calculator that will help people without fingers to realise math accounts
+ContaSemDedo is a web-calculator that will help people without fingers to realise math accounts
