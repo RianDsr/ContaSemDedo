@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaSemDedo.Domain", "ContaSemDedo.Domain\ContaSemDedo.Domain.csproj", "{9A67E9D7-BEC2-455A-8AC7-99F073130491}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaSemDedo.Infra", "ContaSemDedo.Infra\ContaSemDedo.Infra.csproj", "{581BED21-5D10-4AD3-A1ED-23E44E30859E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaSemDedo.Application", "ContaSemDedo.Application\ContaSemDedo.Application.csproj", "{E0E86A0C-CFFC-4FE6-BE48-2B293B18AA80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContaSemDedo.CrossCutting", "ContaSemDedo.CrossCutting\ContaSemDedo.CrossCutting.csproj", "{DB162C54-6B60-471F-A8D3-A30E05656068}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactapp", "ContaSemDedo.Web\reactapp\reactapp.esproj", "{920A2F28-2216-4993-A412-BD91454CBE49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "ContaSemDedo.Web\webapi\webapi.csproj", "{4DA193D8-4E7C-4B51-98E7-F235CBBAB5BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A67E9D7-BEC2-455A-8AC7-99F073130491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A67E9D7-BEC2-455A-8AC7-99F073130491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A67E9D7-BEC2-455A-8AC7-99F073130491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A67E9D7-BEC2-455A-8AC7-99F073130491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581BED21-5D10-4AD3-A1ED-23E44E30859E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581BED21-5D10-4AD3-A1ED-23E44E30859E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581BED21-5D10-4AD3-A1ED-23E44E30859E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581BED21-5D10-4AD3-A1ED-23E44E30859E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E86A0C-CFFC-4FE6-BE48-2B293B18AA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E86A0C-CFFC-4FE6-BE48-2B293B18AA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E86A0C-CFFC-4FE6-BE48-2B293B18AA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E86A0C-CFFC-4FE6-BE48-2B293B18AA80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB162C54-6B60-471F-A8D3-A30E05656068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB162C54-6B60-471F-A8D3-A30E05656068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB162C54-6B60-471F-A8D3-A30E05656068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB162C54-6B60-471F-A8D3-A30E05656068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920A2F28-2216-4993-A412-BD91454CBE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920A2F28-2216-4993-A412-BD91454CBE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920A2F28-2216-4993-A412-BD91454CBE49}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{920A2F28-2216-4993-A412-BD91454CBE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920A2F28-2216-4993-A412-BD91454CBE49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920A2F28-2216-4993-A412-BD91454CBE49}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4DA193D8-4E7C-4B51-98E7-F235CBBAB5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA193D8-4E7C-4B51-98E7-F235CBBAB5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA193D8-4E7C-4B51-98E7-F235CBBAB5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA193D8-4E7C-4B51-98E7-F235CBBAB5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AB0E63F-6FA6-43A3-AD15-BC70EC3438A1}
+	EndGlobalSection
+EndGlobal
